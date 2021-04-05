@@ -1,0 +1,23 @@
+.bg-header{
+  background-color: #000000;
+}
+
+.pt-police{
+  font-size: 0.4rem;
+}
+.header-texte-en-gris{
+  color: #a4b0be;
+}
+/* -------------- mot ------------- */
+trait:before, trait:after {
+  content:'';
+  display:inline-block;
+  vertical-align: middle;
+  width: 40%;
+  height: 1px;
+  background: #ffff
+}
+trait:before {
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
